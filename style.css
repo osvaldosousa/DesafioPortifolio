@@ -1,0 +1,289 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather+Sans:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --cor0:hsla(245, 14%, 15%, 1);
+  --cor1:hsla(244, 13%, 21%, 1);
+  --cor2:hsla(249, 15%, 56%, 1);
+  --cor4:hsla(327, 35%, 68%, 1);
+
+
+}
+
+body {
+  background-color: var(--cor0);
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+body ul {
+  list-style: none;
+}
+main {
+  display: flex;
+}
+
+.colA-perfil {
+  margin: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  color: var(--cor2);
+}
+
+.colB-projetos {
+  color: var(--cor2);
+  margin-right: 1em;
+
+}
+
+img {
+    max-width: 128px;
+    max-height: 128px;
+}
+
+
+.perfil {
+  width: 21em;
+  height: 18em;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 1.8em;
+
+  border-radius: 10px;
+  background-color: var(--cor1);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  color: var(--cor2);
+}
+
+.perfil > h1 {
+  font: bolder;
+  font-weight: bold;
+  color: var(--cor2);
+  margin: 10px;
+}
+
+.perfil p {
+  font-size: small;
+  font-size: .9em;
+  color: #837E9F;
+
+}
+
+.midia {
+  display: flex;
+  width: 21em;
+  height: 21em;
+  margin-bottom: 1.8em;
+
+  border-radius: 10px;
+  background-color: var(--cor1);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.media ul {
+  list-style: none;
+  display: flex;
+  font-weight: 400;
+}
+
+.midia li {
+  margin: 20px 40px;
+  font-size: .9em;
+  display: flex;
+  align-items: center;
+}
+
+.midia li img {
+  display: inline;
+}
+
+.icos {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+}
+
+.linguagens {
+  display: flex;
+  flex-wrap: wrap;
+  width: 21em;
+  height: 13em;
+  margin-bottom: 1.8em;
+
+  border-radius: 10px;
+  background-color: var(--cor1);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  margin: 20px 60px 10px 15px;
+}
+
+.linguagens ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: -20px 20px 10px 20px;
+  padding: 5px;
+}
+
+.linguagens li {
+  width: 5.5em;
+  height: 1.3em;
+  padding: 8px;
+  margin-top: 6px;
+
+  text-align: center;
+  font-size: small;
+  font-weight: bold;
+
+  border-radius: 50px;
+  background-color: var(--cor4);
+  color: black;
+}
+
+.xp {
+  width: 21em;
+  height: 21.8em;
+  margin-bottom: 1.8em;
+
+  border-radius: 10px;
+  background-color: var(--cor1);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.educacao {
+  width: 21em;
+  height: 348px;
+  margin-bottom: 1.8em;
+
+  border-radius: 10px;
+  background-color: var(--cor1);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  list-style:circle;
+  margin: 0 auto;
+
+}
+
+.lista li {
+  align-items: center;
+  margin: 1em auto;
+  font-size: small;
+}
+
+.colB-projetos {
+  margin: 2em 1em;
+  display: flex;
+  flex-wrap: wrap;
+  width: 59.5em;
+  height: 29.5em;
+}
+
+.myprojects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 2000px;
+
+
+  width: 58.5em;
+  height: 86px;
+
+  border-radius: 10px;
+  background-color: var(--cor1);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.myprojects h3 {
+  padding: 30px;
+}
+
+.myprojects a {
+  text-decoration: none;
+  color: var(--cor2);
+  font-size: small;
+  padding: 30px;
+  width: 71px;
+  height: 18px;
+}
+
+.projetos {
+  flex-flow: row nowrap;
+
+  width: 28em;
+  height: 8em;
+
+  margin: 0 auto;
+  margin-left: 0;
+  margin-top: 20px;
+
+  border-radius: 10px;
+  background-color: var(--cor1);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.proj-2 {
+  margin-right: 0.8em;
+}
+
+
+.new-posts {
+  margin-top: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.repositorio {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: var(--cor1);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+
+  width: 58.5em;
+  height: 11em;
+  margin-top: 20px;
+
+}
+
+.repositorio-img {
+  margin: 1.8em 1.8em;
+}
+
+.repositorio aside h3 {
+  margin: 30px auto;
+  margin-bottom: 1px;
+}
+
+.repositorio p {
+  margin-bottom: 20px;
+}
+
+.repositorio h5 {
+  margin-bottom: 10px;
+}
+
+.hastags li {
+  list-style: none;
+  display: inline;
+  padding: 0 20px;
+  padding-left: 0;
+}
+
+footer {
+  text-align: center;
+  margin: 10px auto;
+}
